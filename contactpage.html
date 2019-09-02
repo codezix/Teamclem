@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    *{ box-sizing: border-box
+    }
+    .column{
+        float: left;
+        width: 50%;
+        padding: 10px;
+    }
+    .row::after{
+        content: "";
+        display: table;
+        clear: both;
+    }
+    .button {
+        background-color:#4F0C63; 
+        width: 200px;
+        padding-top: 5px; 
+        padding-bottom: 5px; 
+
+    }
+    </style>
+</head>
+<body>
+    <div align="center">
+    <table border="1" cellpadding="10" cellmargin="10" width="1095" bgcolor="#4F0C63">
+        <tr>
+            <td>
+   <div align="center"><h2><font color="#ffffff">Contact Us</font></h2>
+    <font color="#ffffff"> we are always happy to hear from you! That's why there are lots of ways to get in touch with us
+   </font>     
+    </div>
+</tr>
+</td>
+</table>
+    <div class ="row">
+        <div class="column">
+            <h4><font color="#4F0C63">Let's connect</font></h4>
+            <form action="/action_page.php" method="POST" target="_blank">
+                Name: <br>
+                <input name="name" type="text" size="30"/><br /><br>
+                Email: <br>
+                <input name="Email" type="text" size="30"/><br /><br>
+                Message: <br>
+                <textarea name="message" cols="30" rows="5"></textarea>
+                <br />
+                <p class="button"><input type="submit" value="Send" />
+              </p>
+              <br>
+              Great minds think alike! <a href=https://www.teamdelhi.com/faq>VISIT OUR HELP/FAQS
+              </a>  </form>
+        </div>
+        <div align="left" class="column">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.2628937444288!2d3.3561591142668488!3d6.614223823938231!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b93b65ba86e15%3A0x3ae060fb3436c3ad!2sIkeja%20City%20Mall!5e0!3m2!1sen!2sng!4v1567433412624!5m2!1sen!2sng" width="400" height="250" frameborder="0" style="border:0;" allowfullscreen=""></iframe><br>
+          
+           <pre><u><a href="tel:012233321">(01) 222 333 21</a></u></pre>
+
+            <pre><u><a href="mailto:info@teamdelhi.com">info@teamdehi.com</a></u></pre>
+
+            connect with us via social media:
+            <pre><a href="facebook.com/teamdelhi">facebook.com/teamdelhi</a></pre>
+            <pre><u><a href="twitter.com/teamdelhi">twitter.com/teamdelhi</a></u></pre>
+        </div>
+    </div>
+</body>
+</html>
